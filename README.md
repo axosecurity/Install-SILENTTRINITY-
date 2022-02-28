@@ -23,3 +23,12 @@ cd SILENTTRINITY
 pip3 install -r requirements.txt
 
 pipenv install && pipenv shell 
+  
+  
+  
+# Silenttrinity Comands
+  
+  silenttrinity teamserver --port 81 127.0.0.1 password
+
+  silenttrinity client wss://username:password@127.0.0.1:81     
+  
