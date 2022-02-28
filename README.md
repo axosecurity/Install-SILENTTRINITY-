@@ -10,10 +10,16 @@ in this repository i had share some comand for installing SILENTTRINITY in your 
   
  #<h1>Install from Git<h1>
   
-  git clone https://github.com/byt3bl33d3r/SILENTTRINITY
+git clone https://github.com/byt3bl33d3r/SILENTTRINITY
+
 apt update && apt upgrade  
+
 apt install python3.7 python3.7-dev python3-pip
+
 sudo -H pip3 install -U pipenv
+
 cd SILENTTRINITY  
+
 pip3 install -r requirements.txt
+
 pipenv install && pipenv shell 
